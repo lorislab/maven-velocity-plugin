@@ -19,6 +19,7 @@
     <connection>scm:git:git@github.com:nativelibs4java/maven-velocity-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:nativelibs4java/maven-velocity-plugin.git</developerConnection>
     <url>http://github.com/nativelibs4java/maven-velocity-plugin</url>
+    <tag>HEAD</tag>
   </scm>
 
   <repositories>
@@ -156,7 +157,7 @@
     <distributionManagement>
         <repository>
             <id>bintray</id>
-            <url>https://api.bintray.com/maven/lorislab/maven/jel</url>
+            <url>https://api.bintray.com/maven/lorislab/maven/bridj</url>
         </repository>
     </distributionManagement>
 </project>
