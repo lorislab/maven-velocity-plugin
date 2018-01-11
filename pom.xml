@@ -4,7 +4,7 @@
   
   <groupId>com.nativelibs4java</groupId>
   <artifactId>maven-velocity-plugin</artifactId>
-  <version>0.10-SNAPSHOT</version>
+  <version>0.10-lorislab-1</version>
   <packaging>maven-plugin</packaging>
   <url>http://maven.apache.org</url>
   <name>Maven Velocity Code Generator</name>
@@ -19,7 +19,7 @@
     <connection>scm:git:git@github.com:nativelibs4java/maven-velocity-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:nativelibs4java/maven-velocity-plugin.git</developerConnection>
     <url>http://github.com/nativelibs4java/maven-velocity-plugin</url>
-    <tag>HEAD</tag>
+    <tag>0.10-lorislab-1</tag>
   </scm>
 
   <repositories>
