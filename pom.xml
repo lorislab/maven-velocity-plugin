@@ -10,11 +10,11 @@
   <url>http://maven.apache.org</url>
   <name>Maven Velocity Code Generator</name>
 
-  <parent>
+<!--  <parent>
 	  <groupId>com.nativelibs4java</groupId>
 	  <artifactId>nativelibs4java-parent</artifactId>
     <version>1.10-SNAPSHOT</version>
-  </parent>
+  </parent>-->
 
   <scm>
     <connection>scm:git:git@github.com:nativelibs4java/maven-velocity-plugin.git</connection>
@@ -72,6 +72,7 @@
   		<plugin>
   			<groupId>org.apache.maven.plugins</groupId>
   			<artifactId>maven-javadoc-plugin</artifactId>
+                        <version>3.0.0</version>
   			<configuration>
 	          <tags>
 		            <tag>
