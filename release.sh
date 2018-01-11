@@ -6,7 +6,7 @@ export RELEASE=$1
 
 git clean -f && git reset --hard origin/master
 
-mvn -DtagNameFormat=${RELEASE} -DreleaseVersion=${RELEASE} -DdevelopmentVersion=${VERSION} -DpushChanges=false -DlocalCheckout=true -DpreparationGoals=initialize -Darguments=-DaltDeploymentRepository=bintray::default::https://api.bintray.com/maven/lorislab/maven/bridj release:prepare release:perform -B 
+mvn -DtagNameFormat=${RELEASE} -DreleaseVersion=${RELEASE} -DdevelopmentVersion=${VERSION} -DpushChanges=false -DlocalCheckout=true -DpreparationGoals=initialize -Darguments=-DreleaseVersion=${RELEASE} -DaltDeploymentRepository=bintray::default::https://api.bintray.com/maven/lorislab/maven/bridj release:prepare release:perform -B 
 
 git push origin $RELEASE
 
